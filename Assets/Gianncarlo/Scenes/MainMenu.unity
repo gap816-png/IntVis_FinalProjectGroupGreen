@@ -1804,22 +1804,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1847211264}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: OnNextSceneBtClick
-        m_Mode: 1
+      - m_Target: {fileID: 1502257057}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: GameScene
-          m_BoolArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1502257057}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1847211264}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnNextSceneBtClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4250,7 +4250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1502257058
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5399,6 +5399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91b66971dd91c8945af9348acfb3ebd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  informationPanel: {fileID: 1502257057}
   myTMPText: {fileID: 1723520061}
 --- !u!1 &1872402869
 GameObject:
@@ -5516,7 +5517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275e0ce5ccc436f4dab1aa0774c7dfcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 1
+  sceneIndex: 0
 --- !u!4 &1884264224
 Transform:
   m_ObjectHideFlags: 0
@@ -6541,9 +6542,9 @@ SceneRoots:
   - {fileID: 487620965}
   - {fileID: 1765434327}
   - {fileID: 1834451208}
-  - {fileID: 1969265839}
   - {fileID: 323495822}
   - {fileID: 2052244179}
   - {fileID: 2015334316}
   - {fileID: 740002557}
   - {fileID: 1884264224}
+  - {fileID: 1969265839}

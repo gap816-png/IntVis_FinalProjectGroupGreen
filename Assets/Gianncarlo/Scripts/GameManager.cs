@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-   public int sceneIndex = 1;
+   public int sceneIndex = 0;
    public static GameManager instance = null; //makes sure there aren't any duplicates of the GameManager, this is due to "static" 
 
    void Awake() //awake starts before void Start
@@ -19,13 +19,13 @@ public class GameManager : MonoBehaviour
     }
 
      DontDestroyOnLoad(this); //you can also put gameObject instead and that would work
-     Init();
+     //Init();
    }
 
-   void Init()
+   /*void Init()
    {
      SceneManager.LoadScene(sceneIndex);
      sceneIndex +=1;
      
-   }
+   } */
 }

@@ -9,13 +9,15 @@ public class UIManager : MonoBehaviour
 //Current build scene set to 0 as it's always 0 to begin with 
     private int currentBuildIndex = 0;
     public static UIManager instance = null;
+
+    public GameObject informationPanel;
     
     [SerializeField]
     private TextMeshProUGUI myTMPText;
     
     void Awake() //awake starts before void Start
    {
-    if (instance == null)
+    if (instance == null) //this act of keeping/destroying is a singleton 
     {
         instance = this;
     }
@@ -33,7 +35,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         myTMPText.text = SceneManager.GetActiveScene().name;
-        Debug.Log("Current scene index" + currentBuildIndex);
+       Debug.Log("Current scene index" + currentBuildIndex);
     }
 
 
@@ -73,6 +75,11 @@ public class UIManager : MonoBehaviour
 
             //to check if we're moving down scenes
             Debug.Log("We moving down scenes :()");
+
+            if (currentBuildIndex == 1) //this was the part of code that disabled the UI Panel from scene 1 back to scene 0
+            {
+                informationPanel.SetActive(false);
+            }
         }
         //then we start the coroutine here to find what the index of the current scene is
         StartCoroutine(WaitForEndOfFrame());
