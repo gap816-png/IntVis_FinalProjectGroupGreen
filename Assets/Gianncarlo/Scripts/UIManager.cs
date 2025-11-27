@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
     public void OnNextSceneBtClick()
     {
        //if current build index variable is less than 1, then we can move up scenes, make sure to change this number from 1 to the total number of [scenes -1.]
-        if(currentBuildIndex < 1) //once we add more scenes, this number becomes total number of scenes -1 *********
+        if(currentBuildIndex < 3) //once we add more scenes, this number becomes total number of scenes -1 *********
         {
            
            //we create a new variable called newsceneIndex which is equal to the current scene index + 1
