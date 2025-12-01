@@ -1733,6 +1733,7 @@ GameObject:
   - component: {fileID: 614826864}
   - component: {fileID: 614826863}
   - component: {fileID: 614826862}
+  - component: {fileID: 614826865}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -1804,21 +1805,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1502257057}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1847211264}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: OnNextSceneBtClick
+      - m_Target: {fileID: 614826865}
+        m_TargetAssemblyTypeName: ManageOnclick, Assembly-CSharp
+        m_MethodName: OnClickStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1866,6 +1855,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614826860}
   m_CullTransparentMesh: 1
+--- !u!114 &614826865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614826860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c5e7ec9b7431e4b93e4fdeaa79c7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &740002556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,7 +4246,7 @@ GameObject:
   - component: {fileID: 1502257060}
   - component: {fileID: 1502257059}
   m_Layer: 5
-  m_Name: UI Canvas
+  m_Name: UICanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

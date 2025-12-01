@@ -8,4 +8,4 @@ public class ManageOnclick : MonoBehaviour
         UIManager.instance.OnNextSceneBtClick(); //this one needs an instance because I believe its static and a public variable.
     }
 }
-//matt made this code
+//matt made this code to fix the Start Button from losing its OnMethodClick Events going back to the main menu
