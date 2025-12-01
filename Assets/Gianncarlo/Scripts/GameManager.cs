@@ -3,14 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
+  //public UIManager myIUManager;
+   public static GameObject myUICanvas;
+
    public int sceneIndex = 0;
    public static GameManager instance = null; //makes sure there aren't any duplicates of the GameManager, this is due to "static" 
+
+   
 
    void Awake() //awake starts before void Start
    {
     if (instance == null)
     {
         instance = this;
+        myUICanvas = this.transform.GetChild(0).GetChild(0).gameObject;
+
     }
     else
     {
