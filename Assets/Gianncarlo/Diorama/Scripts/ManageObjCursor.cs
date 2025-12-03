@@ -23,15 +23,4 @@ public class ManageObjCursor : MonoBehaviour
         myCursorObj.transform.position = myRay.origin + myRay.direction*1.0f;
 
     }
-
-    /*void myMaximizeText()
-    {
-         Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        RaycastHit hit;
-
-        Debug.DrawRay(myRay.origin, myRay.direction*100.0f, Color.red);
-
-        myCursorObj.transform.position = myRay.origin + myRay.direction*1.0f;
-    } */
 }

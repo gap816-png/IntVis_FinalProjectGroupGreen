@@ -14,14 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/MainMenu.unity
     guid: 14a20a99490aefa44b558ac47414629e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Gianncarlo/Scenes/GameScene.unity
     guid: 40f1cf43499aae84b8249d5eee323b2d
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene1.unity
+    guid: 47c894c5306422f46bb854aae7e827a1
+  - enabled: 1
+    path: Assets/Gianncarlo/Scenes/Scene2.unity
     guid: a6c3961528beff046933078214b94376
   - enabled: 1
-    path: Assets/Gianncarlo/Scenes/Scene6.unity
+    path: Assets/Gianncarlo/Scenes/Scene3.unity
     guid: cbc37af1630208646a870bce65ab8c29
   - enabled: 0
     path: Assets/Scenes/Quiz.unity

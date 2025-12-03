@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MaximizeText : MonoBehaviour
@@ -5,6 +7,7 @@ public class MaximizeText : MonoBehaviour
      [SerializeField]
     private GameObject myCursorTextMax;
 
+    
     // Update is called once per frame
    /* void Update()
     {
@@ -18,7 +21,7 @@ public class MaximizeText : MonoBehaviour
 
     } */
 
-    public void MyMaximizeText()
+    public void MyMaximizeText() //this is to have text following your cursor to minimize the image, doesn't work just yet
     {
         Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
