@@ -509,6 +509,7 @@ GameObject:
   - component: {fileID: 287623613}
   - component: {fileID: 287623612}
   - component: {fileID: 287623611}
+  - component: {fileID: 287623614}
   m_Layer: 5
   m_Name: HemButton
   m_TagString: Untagged
@@ -580,8 +581,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8118536447282077379}
-        m_TargetAssemblyTypeName: PlayAnimationOnClick, Assembly-CSharp
+      - m_Target: {fileID: 287623614}
+        m_TargetAssemblyTypeName: Play_Animation_OnClick, Assembly-CSharp
         m_MethodName: PlayAnimation
         m_Mode: 1
         m_Arguments:
@@ -630,6 +631,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287623609}
   m_CullTransparentMesh: 1
+--- !u!114 &287623614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287623609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe938f54a55d4eb4cadf6a87527ec328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1491807397}
+  animatorOBJ: {fileID: 8118536447282077378}
 --- !u!1 &485826343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,8 +3549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff263540f9170bc49bbac5154d2738ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1491807397}
-  animatorOBJ: {fileID: 8118536447282077378}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
