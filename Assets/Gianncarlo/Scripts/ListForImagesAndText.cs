@@ -4,28 +4,31 @@ using UnityEngine;
 
 public class ListForImagesAndText : MonoBehaviour
 {
-    /*[SerializeField]
+    [SerializeField]
+    private List<GameObject> parentImageList = new List<GameObject>();
+
+    [SerializeField]
     private List<GameObject> imageList = new List<GameObject>();
 
-    //[SerializeField]
-    //private List<string> textList = new List<GameObject>(); //i dont think I need a list for text because I can just have the text as a child of the images. 
+    private int currentBuildIndex = 0;
+    public int images;
 
-
-    // Start is called before the first frame update
-    void Start()
+    void Update() 
     {
-        
-        if (buildIndex==0) //how do I access the build index from other scripts?
-        {
-            imageList.AddRange(GameObject.FindGameObjectsWithTag("Scene1"));
-           gameObject.FindGameObjectsWithTag("Scene1").SetActive(true); //how do I get these working?
-        }
-        else
-        {
-             imageList.AddRange(GameObject.FindGameObjectsWithTag("Scene2", "Scene3", "Scene4", "Scene5", "Scene6")); //how can I make sure to turn off the either tagged game objects depending on scene?
-             gameObject.FindGameObjectsWithTag("Scene2", "Scene3", "Scene4", "Scene5", "Scene6").SetActive(false);
-        }
-      }
     
-    */
+    if (Input.GetKeyDown(KeyCode.Space))
+       {
+            for (parentImageList = 0; parentImageList < transform.childCount; parentImageList++)
+            {
+                transform.GetChild(parentImageList).gameObject.SetActive(false);
+
+                if (imageList.Contains(transform.GetChild(parentImageList).gameObject))
+                {
+                    transform.GetChild(parentImageList).gameObject.SetActive(true);
+                }
+            }
+    
+        }   
+    }
 }
+
