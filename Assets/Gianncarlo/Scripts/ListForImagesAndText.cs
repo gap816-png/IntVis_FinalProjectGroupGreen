@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ListForImagesAndText : MonoBehaviour
 {
-    [SerializeField]
+    /*[SerializeField]
     private List<GameObject> parentImageList = new List<GameObject>();
 
     [SerializeField]
@@ -29,6 +29,6 @@ public class ListForImagesAndText : MonoBehaviour
             }
     
         }   
-    }
+    }*/
 }
 
