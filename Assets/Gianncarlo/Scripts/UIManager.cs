@@ -43,7 +43,7 @@ public class UIManager : MonoBehaviour
     public void OnNextSceneBtClick()
     {
        //if current build index variable is less than 1, then we can move up scenes, make sure to change this number from 1 to the total number of [scenes -1.]
-        if(currentBuildIndex < 3) //once we add more scenes, this number becomes total number of scenes -1 *********
+        if(currentBuildIndex < 6) //once we add more scenes, this number becomes total number of scenes -1 *********
         {
            
            //we create a new variable called newsceneIndex which is equal to the current scene index + 1
@@ -76,7 +76,7 @@ public class UIManager : MonoBehaviour
             //to check if we're moving down scenes
             Debug.Log("We moving down scenes :()");
 
-            if (currentBuildIndex == 1) //this was the part of code that disabled the UI Panel from scene 1 back to scene 0
+            if (currentBuildIndex == 1) //this was the part of code that disabled the UI Panel from scene 1 back to scene 0 (This one came straight from my MIND)
             {
                 informationPanel.SetActive(false);
             }

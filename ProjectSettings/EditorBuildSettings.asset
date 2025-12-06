@@ -17,18 +17,33 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Gianncarlo/Scenes/GameScene.unity
     guid: 40f1cf43499aae84b8249d5eee323b2d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Gianncarlo/Scenes/PracticeScene.unity
     guid: 47c894c5306422f46bb854aae7e827a1
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene1.unity
     guid: a6c3961528beff046933078214b94376
+  - enabled: 0
+    path: Assets/Gianncarlo/Scenes/Scene2BowlingBall.unity
+    guid: ec13c36cbb7c680409627eb87b23d02b
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene3.unity
-    guid: cbc37af1630208646a870bce65ab8c29
+    guid: 2959263cf8c769848a1cfbe772232b61
   - enabled: 0
     path: Assets/Scenes/Quiz.unity
     guid: 1a960db8dd928ee468ea8dd64a0a8547
+  - enabled: 1
+    path: Assets/Gianncarlo/Scenes/Scene4.unity
+    guid: 33116bf8d617ed44eaf27cb100e7339a
+  - enabled: 1
+    path: Assets/Gianncarlo/Scenes/Scene5.unity
+    guid: c1506053cc6cf7b46a1c39ecbd96088c
+  - enabled: 1
+    path: Assets/Gianncarlo/Scenes/Scene6.unity
+    guid: 21042583767d0ac42bd0234b51dbc172
+  - enabled: 1
+    path: Assets/Gianncarlo/Scenes/Scene7Quiz.unity
+    guid: 296c45b8cde74354cbd17db2679642ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

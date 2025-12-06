@@ -7490,7 +7490,7 @@ GameObject:
   - component: {fileID: 5847262811905203275}
   - component: {fileID: 5700321637784455423}
   m_Layer: 0
-  m_Name: HumerusModel
+  m_Name: Unfractured Humerus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
