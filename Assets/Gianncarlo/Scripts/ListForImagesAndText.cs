@@ -25,7 +25,7 @@ public class ListForImagesAndText : MonoBehaviour
         
     }
 
-    public void OnSceneChangeBt()
+    public void OnSceneChangeBt() //sets the image set to that scene Active along with its children (done through UI) and anything else in the list false
     {
         for (int i = 0; i < parentImageList.Count; i++)
         {
@@ -35,10 +35,26 @@ public class ListForImagesAndText : MonoBehaviour
             }
         }
 
-        SceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneIndex = SceneManager.GetActiveScene().buildIndex-1;
         parentImageList[SceneIndex].GetComponent<ManageImageList>().imageList[0].SetActive(true);
 
     }
     //need another button to turn em off?
 
+    public void OnRightArrowChangeBt() //(might need to make this work better for more than 2 images) 
+    // sets the second image in the set to that scene Active along with its children 
+    // (done through UI) and anything else in the list false
+    {
+        for (int i = 0; i < parentImageList.Count; i++)
+        {
+            for (int j = 0; j < parentImageList[i].transform.childCount; j++ )
+            {
+                parentImageList[SceneIndex].GetComponent<ManageImageList>().imageList[0].SetActive(false);
+            }
+        }
+
+        SceneIndex = SceneManager.GetActiveScene().buildIndex;
+        parentImageList[SceneIndex].GetComponent<ManageImageList>().imageList[1].SetActive(true);
+
+    }
 }

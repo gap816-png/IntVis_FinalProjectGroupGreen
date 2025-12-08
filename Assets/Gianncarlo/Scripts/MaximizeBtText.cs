@@ -27,7 +27,7 @@ public class MaximizeText : MonoBehaviour
 
         RaycastHit hit;
 
-        Debug.DrawRay(myRay.origin, myRay.direction*100.0f, Color.blue);
+        Debug.DrawRay(myRay.origin, myRay.direction*100.0f, Color.red);
 
         myCursorTextMax.transform.position = myRay.origin + myRay.direction*1.0f;
     } 
