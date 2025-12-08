@@ -18,12 +18,12 @@ EditorBuildSettings:
     path: Assets/Gianncarlo/Scenes/GameScene.unity
     guid: 40f1cf43499aae84b8249d5eee323b2d
   - enabled: 0
-    path: Assets/Gianncarlo/Scenes/PracticeScene.unity
+    path: Assets/Gianncarlo/Scenes/Scene1.unity
     guid: 47c894c5306422f46bb854aae7e827a1
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene1.unity
-    guid: a6c3961528beff046933078214b94376
-  - enabled: 0
+    guid: 47c894c5306422f46bb854aae7e827a1
+  - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene2BowlingBall.unity
     guid: ec13c36cbb7c680409627eb87b23d02b
   - enabled: 1
