@@ -19,12 +19,15 @@ EditorBuildSettings:
     guid: 40f1cf43499aae84b8249d5eee323b2d
   - enabled: 0
     path: Assets/Gianncarlo/Scenes/Scene1.unity
-    guid: 47c894c5306422f46bb854aae7e827a1
+    guid: a6c3961528beff046933078214b94376
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene1.unity
-    guid: 47c894c5306422f46bb854aae7e827a1
+    guid: a6c3961528beff046933078214b94376
   - enabled: 1
-    path: Assets/Gianncarlo/Scenes/Scene2BowlingBall.unity
+    path: Assets/Chen Yuu/Scenes/Scene2.unity
+    guid: 8aec6fefa5a9a75409be4838841af846
+  - enabled: 0
+    path: Assets/Gianncarlo/Scenes/NotWorkingBowlingBall.unity
     guid: ec13c36cbb7c680409627eb87b23d02b
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene3.unity
@@ -38,12 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Gianncarlo/Scenes/Scene5.unity
     guid: c1506053cc6cf7b46a1c39ecbd96088c
-  - enabled: 1
-    path: Assets/Gianncarlo/Scenes/Scene6.unity
+  - enabled: 0
+    path: Assets/Gianncarlo/Scenes/OLDScene6.unity
     guid: 21042583767d0ac42bd0234b51dbc172
-  - enabled: 1
-    path: Assets/Gianncarlo/Scenes/Scene7Quiz.unity
+  - enabled: 0
+    path: Assets/Gianncarlo/Scenes/OLDScene7Quiz.unity
     guid: 296c45b8cde74354cbd17db2679642ab
+  - enabled: 1
+    path: Assets/Chen Yuu/Scenes/Scene6.unity
+    guid: 1cd02557ac1db1b4291802774f106927
+  - enabled: 1
+    path: Assets/Chen Yuu/Scenes/Scene7.unity
+    guid: 3388b49a512d277479cdfe3b95501978
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

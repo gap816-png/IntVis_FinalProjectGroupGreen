@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Chen Yuu/Material/1HardCallusHumerusEarly.obj.meta
+guid: cf1a48c7241fbc84c84aa4aad94f84d4
+=======
 guid: 1b7c85767dce71741ad9076f6b645623
+>>>>>>> aa7740a9952bff2cc62e1ac058be9189dba6c752:Assets/Chen Yuu/Material/HardCallusHumerusEarly.obj.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
