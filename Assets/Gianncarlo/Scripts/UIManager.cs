@@ -35,7 +35,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         myTMPText.text = SceneManager.GetActiveScene().name;
-       Debug.Log("Current scene index" + currentBuildIndex);
+       // Debug.Log("Current scene index" + currentBuildIndex);
     }
 
 
