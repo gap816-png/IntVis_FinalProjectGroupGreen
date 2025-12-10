@@ -36,6 +36,11 @@ public class UIManager : MonoBehaviour
     {
         myTMPText.text = SceneManager.GetActiveScene().name;
        // Debug.Log("Current scene index" + currentBuildIndex);
+        if (currentBuildIndex == 7) //new code I'm using to try and make the UICanvas turn off in scene 7(Yuu's Quiz)
+            {
+                informationPanel.SetActive(false);
+            }
+
     }
 
 
