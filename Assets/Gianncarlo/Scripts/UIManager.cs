@@ -94,6 +94,17 @@ public class UIManager : MonoBehaviour
         
     }
 
+    public void LoadMainMenu() //I ADDED this part to fix the issue where the quit panel main menu button messed with the build index.
+    {   if(currentBuildIndex > 0) // if current build index is greater than 0 (not in scene 1), we can go back to previous scene
+        { 
+        SceneManager.LoadScene(0);
+        Debug.Log("Back to main menu" + currentBuildIndex);
+        }
+
+        StartCoroutine(WaitForEndOfFrame());
+
+    }
+
 //method to find current scene index
     private void FindCurrentIndex()
     {
