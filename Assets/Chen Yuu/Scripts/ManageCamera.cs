@@ -19,12 +19,12 @@ public class ManageCamera : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             Debug.Log("Right Arrow Pressed");
-            transform.Translate(0.1f, 0.0f,0.0f, Space.Self);
+            transform.Translate(-0.5f, 0.0f,0.0f, Space.Self);
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
             Debug.Log("Left Arrow Pressed");
-            transform.Translate(-0.1f, 0.0f,0.0f, Space.Self);
+            transform.Translate(0.5f, 0.0f,0.0f, Space.Self);
         }
         else{}
 
